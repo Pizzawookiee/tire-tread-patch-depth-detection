@@ -2,9 +2,15 @@
 Very fast YOLO-based tire tread patch depth prediction.
 
 Basically, YOLO segmentation masks out the tire, the tire is split into n patches (default is 4), each patch is independently re-classified by YOLO, and for each patch a manual heuristic takes the prediction and makes a very rough estimate of the tire depth.
+
+Normal tire example:
 <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/d2582a9c-836a-4f20-a29a-f7315d657683" />
 
+Bald tire example:
 <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/18281c0d-48f5-40a9-bcb7-6c0fdd9a593d" />
+
+Partial damage example:
+<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/0eb5afcf-8a29-4034-b750-6c40d88169b6" />
 
 
 Trained on this public domain dataset on Roboflow: https://universe.roboflow.com/mark-aft7n/tire-tread/dataset/5
