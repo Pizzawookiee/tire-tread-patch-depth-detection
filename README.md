@@ -9,8 +9,6 @@ Normal tire example:
 Bald tire example:
 <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/18281c0d-48f5-40a9-bcb7-6c0fdd9a593d" />
 
-Partial damage example:
-<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/0eb5afcf-8a29-4034-b750-6c40d88169b6" />
 
 
 Trained on this public domain dataset on Roboflow: https://universe.roboflow.com/mark-aft7n/tire-tread/dataset/5
